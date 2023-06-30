@@ -2,7 +2,7 @@
 FROM node:10
 
 # create app directory
-WORKDIR /usr/src/lafs
+WORKDIR /usr/src/lafs-web
 
 # Install dependencies
 COPY package*.json ./
